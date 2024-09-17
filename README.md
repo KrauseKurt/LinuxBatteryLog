@@ -22,7 +22,13 @@ sudo dnf install upower
 sudo dnf install acpi
 ```
 ## How to run
+
+Give the appropriate permissions to the file:
 ```
-chmod +x battery_life_test.sh
-./battery_life_test.sh
+chmod +x test.sh
 ```
+Run with:
+```
+./test.sh
+```
+
