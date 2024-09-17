@@ -1,24 +1,24 @@
 # LinuxBatteryLog
-A tool to log battery life tests for linux
+A really simple tool to log battery life tests in linux systems, written in bash.
 
 ## Required packages
-Ensure that you have the **upower** or **acpi** package installed, depending on what your distro supports
+Ensure that you have the **upower** or **acpi** package installed, depending on what your distro supports:
 
 For Debian/Ubuntu:
 ```
-# For upower
+# upower
 sudo apt-get install upower
 
-# For acpi
+# acpi
 sudo apt-get install acpi
 ```
 
 For Fedora:
 ```
-# For upower
+# upower
 sudo dnf install upower
 
-# For acpi
+# acpi
 sudo dnf install acpi
 ```
 ## How to run
