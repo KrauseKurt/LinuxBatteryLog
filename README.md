@@ -25,7 +25,7 @@ sudo dnf install acpi
 
 Give the appropriate permissions to the file:
 ```
-chmod +x test.sh
+sudo chmod +x test.sh
 ```
 Run with:
 ```
